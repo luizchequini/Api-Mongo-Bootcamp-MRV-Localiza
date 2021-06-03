@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KS94AuN/kg+PDco46AVUPwNE4Q8l3S5rcn+5200RATtcA4WrHWQF9cpKvp2XZl8oUtsLdkzqLzxB4ON5a22Ljw==",
+  "success": true,
+  "projectFilePath": "C:\\cursos dio\\Api-Mongo-Bootcamp-MRV-Localiza\\Api-Mongo-Bootcamp-MRV-Localiza.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luizc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\luizc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\luizc\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\luizc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\luizc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\luizc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
