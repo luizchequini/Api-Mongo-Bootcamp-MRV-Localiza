@@ -26,7 +26,7 @@ namespace Api_Mongo_Bootcamp_MRV_Localiza
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddSingleton<Data.MongoDB>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
