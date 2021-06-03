@@ -1,3 +1,4 @@
+using System;
 using Api_Mongo_Bootcamp_MRV_Localiza.Data.Collections;
 using Api_Mongo_Bootcamp_MRV_Localiza.Model;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +32,21 @@ namespace Api_Mongo_Bootcamp_MRV_Localiza.Controllers
         {
             var infectados = _infectadoCollection.Find(Builders<Infectado>.Filter.Empty).ToList();
             return Ok(infectados);
+        }
+
+        [HttpPut]
+        public ActionResult AtualizarInfectado([FromBody] InfectadoDTO dto)
+        {
+            _infectadoCollection.UpdateOne(Builders<Infectado>.Filter.Where(_ => _.DataNascimento == dto.DataNascimento), Builders<Infectado>.Update.Set("sexo", dto.Sexo));
+            return Ok("Infectado atualizado com sucesso!");
+        }
+
+        
+        [HttpDelete("dataNascimento")]
+        public ActionResult DeletarInfectado(DateTime dataNascimento)
+        {
+            _infectadoCollection.DeleteOne(Builders<Infectado>.Filter.Where(_ => _.DataNascimento == dataNascimento));
+            return Ok("Infectado atualizado com sucesso!");
         }
     }
 }
